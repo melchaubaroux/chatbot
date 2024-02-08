@@ -1,0 +1,116 @@
+
+ /* body{
+  display: flex;
+
+}    */
+
+header {
+  background-color : rgb(235, 175, 11);
+  text-align: center;
+  size: 20%;
+  border: solid;
+
+}
+
+
+aside {
+  float: left;
+  width: 250px;
+  height: 100px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: solid;
+  border-color: rgb(11, 11, 227) ;
+  background-color: rgb(13, 225, 200);
+  text-align: left;
+
+}
+
+.breakdown{
+ 
+  background-color : rgb(88, 218, 23);
+  text-align: center;
+  size: 20%;
+  border: solid;
+
+}
+
+nav{
+  background-color: burlywood;
+
+
+
+}
+
+
+
+.lien {
+    color: red;
+    font-size: italic;
+    font-weight: bold ;
+
+}
+
+.prenom {
+  background-color:orange;
+  color: blue;
+
+}
+
+.nom_de_famille { 
+    background-color:  orange ;
+    color: blue;
+
+} 
+
+.chatbot{
+  font-size: medium;
+  size : 50px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  /* color: red; */
+  border: 10px solid;
+  background-color: blanchedalmond;
+  border-color: blue ;
+  margin-top: 10px;
+  width : 300px
+
+}
+
+
+
+.question {
+  border: solid ;
+  border-color: green;
+  background-color: green;
+  color : green;
+  left : 0;
+  align-items: left;
+  text-align: left;
+}
+
+.reponse {
+  border : solid ;
+  border-color: burlywood;
+  background-color: red;
+  color : burlywood;
+  align-items: right ; 
+  text-align: right;
+  
+}  
+
+.codingame{
+  width : 20px ;
+  height: auto;
+}
+
+.codewars{
+  width : 160px ;
+  height: auto;
+}
+
+.sololearn{
+  width : 160px ;
+  height: auto;
+}
