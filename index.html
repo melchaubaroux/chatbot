@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="asset/index.css">
+    <script src="asset/script.js"></script>
+    <!-- <link rel="interactive" href="asset/script.js"> -->
+
+  </head>
+
+ 
+  <body>
+
+    <header>
+         
+      <h1>BIENVENUE</h1>
+              
+    </header>
+
+
+    <nav>
+
+      <a class="lien" href=https://www.codingame.com/home>
+        <img id="codingame" alt="codingame" src="//upload.wikimedia.org/wikipedia/fr/thumb/1/14/CodinGame_Logo.svg/512px-CodinGame_Logo.svg.png?20160726213433" decoding="async" width="512" height="110" srcset="//upload.wikimedia.org/wikipedia/fr/thumb/1/14/CodinGame_Logo.svg/768px-CodinGame_Logo.svg.png?20160726213433 1.5x, //upload.wikimedia.org/wikipedia/fr/thumb/1/14/CodinGame_Logo.svg/1024px-CodinGame_Logo.svg.png?20160726213433 2x" data-file-width="512" data-file-height="110">
+      </a> 
+
+      <a class="lien" href=https://www.sololearn.com> 
+        <img class="sololearn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/SoloLearn_logo.svg/734px-SoloLearn_logo.svg.png?20210710155454" alt="sololearn">    
+      </a>
+
+      <a class="lien" href= https://www.codewars.com>
+        <img class= "codewars" src="https://assets-global.website-files.com/62e3ee10882dc50bcae8d07a/64c17e87883a17f4153b301f_codewars-by-andela-dark.svg"alt="codewars"> 
+      </a> 
+
+      <a class="lien" href= https://projecteuler.net>
+        <img id="logo" src="https://projecteuler.net/themes/logo_default.png" alt="Project Euler">
+      </a> 
+
+      <a class="lien" href= https://neetcode.io>
+        <img _ngcontent-djd-c26="" src="https://neetcode.io/../../../assets/neetcode-io-logo.png" width="36px" loading="lazy">
+        neetcode
+      </a>
+     
+    </nav>
+
+
+    <aside>
+      <h3>MENU : </h3 >
+        <ol>
+          <ul>
+            <a class="lien" href =http://127.0.0.1:8001#formation> formation</a>   
+          </ul>
+
+          <ul>         
+            <a class="lien" href =http://127.0.0.1:8001#formation> contact</a>
+          </ul> 
+        </ol>
+    </aside>
+
+
+
+    <div class="breakdown">
+
+      <p> mon cerveau apres 3h de debug pour une histoire de cache</p>
+      <img class= "panda" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3d2YjkzOHc1OWozcHJpbm9maGZtcnpkdHp6cmtvcTNlNW0zeHFrdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZebTmyvw85gnm/giphy.gif"> 
+      <p> mon cerveau apres 3h de plus  de debug parce que ton code se comporte aleatoirement </p>
+      <img src="https://media1.tenor.com/m/_ZiXFBN-Pd4AAAAC/stewie-griffin.gif" alt="">
+
+    </div>
+
+
+
+
+
+    <div class=chatbot > Mon chatbot
+      <button onclick =addNewQuestion()> posez votre question</button>
+      <div id="conversation"></div>
+    </div>
+
+
+  </footer>
+
+
+    <div id="formation">
+      <h4>Parcours scolaire : </h4>
+      <p> BAC ES</p>
+      <p>fac de math/info</p>
+      <p>auto formation language python</p>
+      <p>auto formation machine/deep learning</p>
+      <p> Simplon dev ia </p>
+    </div>
+
+
+  </body>
+
+  <footer>
+
+    <h4>Info et contact :</h4>
+    <span class="prenom">Mel </span>
+    <span class="nom_de_famille" > CHAUBAROUX </span>
+    <br>
+    <a href= "mailto:mel.chaubaroux@gmail.com">mel.chaubaroux@gmail.com </a>
+    <a class="lien" href =https://github.com/melchaubaroux> Github</a>
+    <!-- <a href= https://mail.google.com/mail/u/1/#inbox>mel.chaubaroux@gmail.com </a> -->
+    <a class="AppHeader-logo ml-2" href="https://github.com/" data-hotkey="g d" aria-label="Homepage " data-turbo="false" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}">
+      <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
+        <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+      </svg>   
+    </a>
+
+
+</html
