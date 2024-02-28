@@ -74,9 +74,17 @@ nav{
   background-color: blanchedalmond;
   border-color: blue ;
   margin-top: 10px;
-  width : 300px
+  width : 300px;
+  overflow : scroll;
 
 }
+
+.conversation {
+  size : 40px;
+
+  overflow : scroll;
+}
+
 
 
 
@@ -88,6 +96,7 @@ nav{
   left : 0;
   align-items: left;
   text-align: left;
+  overflow : scroll;
 }
 
 .reponse {
@@ -97,6 +106,7 @@ nav{
   color : burlywood;
   align-items: right ; 
   text-align: right;
+  overflow : scroll;
   
 }  
 
